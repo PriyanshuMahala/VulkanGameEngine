@@ -1,0 +1,261 @@
+************************************* Invoked: Wed May 15 21:38:50 2024
+[0] Arguments: C:\Users\noobs\Downloads\Installers\VulkanSDK-1.3.283.0-Installer.exe
+[7] Operations sanity check succeeded.
+[7] Language: en-US
+[606] Loaded control script ":/metadata/installer-config/installscript_qs.qs"
+[606] Using control script: ":/metadata/installer-config/installscript_qs.qs"
+[2207] Preparing meta information download...
+[3371] Retrieving meta information from remote repository...
+[4326] Extracting meta information...
+[28443] Installation space required: "1.04 GB" Temporary space required: "390.91 MB" Local repository size: "0.00 bytes"
+[28448] Tmp and install directories are on the same volume. Volume mount point: "C:\\" Free space available: "31.02 GB"
+[29927] backup  operation: Mkdir
+[29927] 	- arguments: C:/Dev/vulkan_t
+[29927] Done
+[29928] perform  operation: Mkdir
+[29928] 	- arguments: C:/Dev/vulkan_t
+[29928] Done
+[29928] Preparing the installation...
+[29928] Install size: 2 components
+[29934] Installing component The Vulkan SDK
+[29934] backup com.lunarg.vulkan operation: License
+[29934] 	- arguments:
+[29934] Done
+[29935] perform com.lunarg.vulkan operation: License
+[29935] 	- arguments:
+[29936] Done
+[29937] Installing component The Vulkan SDK Core (Always Installed)
+[29937] backup com.lunarg.vulkan.core operation: Extract
+[29937] 	- arguments: installer://com.lunarg.vulkan.core/1.3.283.0core.7z, C:\Dev\vulkan_t
+[29937] Done
+[29938] perform com.lunarg.vulkan.core operation: Extract
+[29938] 	- arguments: installer://com.lunarg.vulkan.core/1.3.283.0core.7z, C:\Dev\vulkan_t
+[39413] Done
+[39414] Starting elevated process "C:\\Users\\noobs\\Downloads\\Installers\\VulkanSDK-1.3.283.0-Installer.exe" with arguments " --start-server PRODUCTION,{c120dfe2-a4d7-4897-9a75-7399ada55834},{5bca20ed-0df4-4cbc-9143-20c2cde090ba}"
+[42101] Finished starting elevated process.
+[42447] "Execute" as admin: true
+[42447] backup com.lunarg.vulkan.core operation: Execute
+[42448] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, C:\Dev\vulkan_t, SHORTCUTS, Vulkan SDK 1.3.283.0, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, REMOVESHORTCUTS, Vulkan SDK 1.3.283.0
+[42448] Done
+[42448] perform com.lunarg.vulkan.core operation: Execute
+[42449] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, C:\Dev\vulkan_t, SHORTCUTS, Vulkan SDK 1.3.283.0, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, REMOVESHORTCUTS, Vulkan SDK 1.3.283.0
+[42450] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "C:\\Dev\\vulkan_t SHORTCUTS Vulkan SDK 1.3.283.0
+[43483] Done
+[43484] "Execute" as admin: true
+[43484] backup com.lunarg.vulkan.core operation: Execute
+[43484] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_api_dump.json
+[43484] Done
+[43484] perform com.lunarg.vulkan.core operation: Execute
+[43485] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_api_dump.json
+[43485] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_api_dump.json
+[43509] Done
+[43510] "Execute" as admin: true
+[43510] backup com.lunarg.vulkan.core operation: Execute
+[43511] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_api_dump.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_api_dump.json
+[43511] Done
+[43511] perform com.lunarg.vulkan.core operation: Execute
+[43511] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_api_dump.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_api_dump.json
+[43512] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT C:\\Dev\\vulkan_t\\Bin\\VkLayer_api_dump.json
+[43535] Done
+[43535] "Execute" as admin: true
+[43536] backup com.lunarg.vulkan.core operation: Execute
+[43536] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_gfxreconstruct.json
+[43536] Done
+[43536] perform com.lunarg.vulkan.core operation: Execute
+[43536] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_gfxreconstruct.json
+[43537] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_gfxreconstruct.json
+[43555] Done
+[43555] "Execute" as admin: true
+[43555] backup com.lunarg.vulkan.core operation: Execute
+[43563] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_gfxreconstruct.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_gfxreconstruct.json
+[43563] Done
+[43563] perform com.lunarg.vulkan.core operation: Execute
+[43564] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_gfxreconstruct.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_gfxreconstruct.json
+[43564] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT C:\\Dev\\vulkan_t\\Bin\\VkLayer_gfxreconstruct.json
+[43581] Done
+[43581] "Execute" as admin: true
+[43581] backup com.lunarg.vulkan.core operation: Execute
+[43582] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_synchronization2.json
+[43582] Done
+[43582] perform com.lunarg.vulkan.core operation: Execute
+[43582] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_synchronization2.json
+[43583] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_khronos_synchronization2.json
+[43601] Done
+[43602] "Execute" as admin: true
+[43602] backup com.lunarg.vulkan.core operation: Execute
+[43602] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_khronos_synchronization2.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_khronos_synchronization2.json
+[43602] Done
+[43602] perform com.lunarg.vulkan.core operation: Execute
+[43603] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_khronos_synchronization2.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_khronos_synchronization2.json
+[43603] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT C:\\Dev\\vulkan_t\\Bin\\VkLayer_khronos_synchronization2.json
+[43622] Done
+[43622] "Execute" as admin: true
+[43622] backup com.lunarg.vulkan.core operation: Execute
+[43622] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_validation.json
+[43622] Done
+[43623] perform com.lunarg.vulkan.core operation: Execute
+[43623] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_validation.json
+[43623] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_khronos_validation.json
+[43642] Done
+[43642] "Execute" as admin: true
+[43642] backup com.lunarg.vulkan.core operation: Execute
+[43643] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_khronos_validation.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_khronos_validation.json
+[43643] Done
+[43643] perform com.lunarg.vulkan.core operation: Execute
+[43643] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_khronos_validation.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_khronos_validation.json
+[43644] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT C:\\Dev\\vulkan_t\\Bin\\VkLayer_khronos_validation.json
+[43663] Done
+[43664] "Execute" as admin: true
+[43664] backup com.lunarg.vulkan.core operation: Execute
+[43664] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_monitor.json
+[43664] Done
+[43664] perform com.lunarg.vulkan.core operation: Execute
+[43664] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_monitor.json
+[43665] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_monitor.json
+[43685] Done
+[43686] "Execute" as admin: true
+[43686] backup com.lunarg.vulkan.core operation: Execute
+[43687] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_monitor.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_monitor.json
+[43687] Done
+[43687] perform com.lunarg.vulkan.core operation: Execute
+[43690] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_monitor.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_monitor.json
+[43691] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT C:\\Dev\\vulkan_t\\Bin\\VkLayer_monitor.json
+[43709] Done
+[43709] "Execute" as admin: true
+[43709] backup com.lunarg.vulkan.core operation: Execute
+[43710] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_screenshot.json
+[43710] Done
+[43710] perform com.lunarg.vulkan.core operation: Execute
+[43710] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_screenshot.json
+[43710] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_screenshot.json
+[43729] Done
+[43730] "Execute" as admin: true
+[43730] backup com.lunarg.vulkan.core operation: Execute
+[43730] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_screenshot.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_screenshot.json
+[43730] Done
+[43730] perform com.lunarg.vulkan.core operation: Execute
+[43731] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_screenshot.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_screenshot.json
+[43731] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT C:\\Dev\\vulkan_t\\Bin\\VkLayer_screenshot.json
+[43751] Done
+[43751] "Execute" as admin: true
+[43751] backup com.lunarg.vulkan.core operation: Execute
+[43752] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_profiles.json
+[43752] Done
+[43752] perform com.lunarg.vulkan.core operation: Execute
+[43752] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_profiles.json
+[43753] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_khronos_profiles.json
+[43771] Done
+[43772] "Execute" as admin: true
+[43772] backup com.lunarg.vulkan.core operation: Execute
+[43773] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_khronos_profiles.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_khronos_profiles.json
+[43773] Done
+[43773] perform com.lunarg.vulkan.core operation: Execute
+[43773] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_khronos_profiles.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_khronos_profiles.json
+[43774] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT C:\\Dev\\vulkan_t\\Bin\\VkLayer_khronos_profiles.json
+[43789] Done
+[43790] "Execute" as admin: true
+[43790] backup com.lunarg.vulkan.core operation: Execute
+[43790] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_shader_object.json
+[43790] Done
+[43790] perform com.lunarg.vulkan.core operation: Execute
+[43791] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_khronos_shader_object.json
+[43793] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_khronos_shader_object.json
+[43810] Done
+[43811] "Execute" as admin: true
+[43811] backup com.lunarg.vulkan.core operation: Execute
+[43812] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_khronos_shader_object.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_khronos_shader_object.json
+[43812] Done
+[43812] perform com.lunarg.vulkan.core operation: Execute
+[43812] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, ADDEXPLICIT, C:\Dev\vulkan_t\Bin\VkLayer_khronos_shader_object.json, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, DELKEYVALUE, C:\Dev\vulkan_t\Bin\VkLayer_khronos_shader_object.json
+[43813] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "ADDEXPLICIT C:\\Dev\\vulkan_t\\Bin\\VkLayer_khronos_shader_object.json
+[43832] Done
+[43832] "Execute" as admin: true
+[43832] backup com.lunarg.vulkan.core operation: Execute
+[43833] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_device_simulation.json
+[43833] Done
+[43833] perform com.lunarg.vulkan.core operation: Execute
+[43833] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, CLEANEXPLICIT, VkLayer_device_simulation.json
+[43834] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "CLEANEXPLICIT VkLayer_device_simulation.json
+[43851] Done
+[43851] "Execute" as admin: true
+[43852] backup com.lunarg.vulkan.core operation: Execute
+[43853] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, C:\Dev\vulkan_t\Bin, NOP, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, C:\Dev\vulkan_t\Bin, REMOVE
+[43853] Done
+[43853] perform com.lunarg.vulkan.core operation: Execute
+[43855] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, C:\Dev\vulkan_t\Bin, NOP, UNDOEXECUTE, C:\Dev\vulkan_t\Helpers\install_helper.exe, C:\Dev\vulkan_t\Bin, REMOVE
+[43856] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "C:\\Dev\\vulkan_t\\Bin NOP
+[43873] Done
+[43873] "Execute" as admin: true
+[43873] backup com.lunarg.vulkan.core operation: Execute
+[43874] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, C:\Dev\vulkan_t\Bin, ADD
+[43874] Done
+[43874] perform com.lunarg.vulkan.core operation: Execute
+[43874] 	- arguments: C:\Dev\vulkan_t\Helpers\install_helper.exe, C:\Dev\vulkan_t\Bin, ADD
+[43877] C:\\Dev\\vulkan_t\\Helpers\\install_helper.exe" started, arguments: "C:\\Dev\\vulkan_t\\Bin ADD
+[44198] Done
+[44199] backup com.lunarg.vulkan.core operation: License
+[44199] 	- arguments:
+[44199] Done
+[44199] perform com.lunarg.vulkan.core operation: License
+[44199] 	- arguments:
+[44200] Done
+[44204] Writing maintenance tool: "C:\\Dev\\vulkan_t/maintenancetool.exe.new"
+[44204] Writing maintenance tool.
+[44244] Wrote permissions for maintenance tool.
+[44342] Maintenance tool restart: false.
+[44343] Installation finished!
+[44344] Component name: com.lunarg.vulkan.core
+[44344] Component name: com.lunarg.vulkan.32bit
+[44344] 32Bit Is NOT Installed
+[44473] perform  operation: Delete
+[44473] 	- arguments: C:\Dev\vulkan_t/Helpers/VC_redist.x64.exe
+[44475] Warning: QString::arg: Argument missing: Run the Vulkan Configurator and Hardware Capabilities Viewer, Vulkan SDK 1.3.283.0
+[44475] Done
+[44476] Component name: com.lunarg.vulkan.core
+[44476] perform  operation: Execute
+[44476] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.core, /t, REG_DWORD, /d, 1, /f
+[44477] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.core /t REG_DWORD /d 1 /f
+[44500] Done
+[44501] Is Installed
+[44502] Component name: com.lunarg.vulkan.32bit
+[44502] perform  operation: Execute
+[44502] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.32bit, /t, REG_DWORD, /d, 0, /f
+[44503] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.32bit /t REG_DWORD /d 0 /f
+[44524] Done
+[44524] Was not installed
+[44524] Component name: com.lunarg.vulkan.debug
+[44524] perform  operation: Execute
+[44524] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.debug, /t, REG_DWORD, /d, 0, /f
+[44525] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.debug /t REG_DWORD /d 0 /f
+[44541] Done
+[44541] Was not installed
+[44541] Component name: com.lunarg.vulkan.debug32
+[44541] perform  operation: Execute
+[44541] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.debug32, /t, REG_DWORD, /d, 0, /f
+[44542] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.debug32 /t REG_DWORD /d 0 /f
+[44560] Done
+[44560] Was not installed
+[44560] Component name: com.lunarg.vulkan.glm
+[44560] perform  operation: Execute
+[44560] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.glm, /t, REG_DWORD, /d, 0, /f
+[44560] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.glm /t REG_DWORD /d 0 /f
+[44574] Done
+[44574] Was not installed
+[44574] Component name: com.lunarg.vulkan.sdl2
+[44574] perform  operation: Execute
+[44574] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.sdl2, /t, REG_DWORD, /d, 0, /f
+[44575] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.sdl2 /t REG_DWORD /d 0 /f
+[44597] Done
+[44598] Was not installed
+[44598] Component name: com.lunarg.vulkan.volk
+[44598] perform  operation: Execute
+[44598] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.volk, /t, REG_DWORD, /d, 0, /f
+[44599] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.volk /t REG_DWORD /d 0 /f
+[44613] Done
+[44614] Was not installed
+[44614] Component name: com.lunarg.vulkan.vma
+[44614] perform  operation: Execute
+[44614] 	- arguments: reg, ADD, HKEY_LOCAL_MACHINE\SOFTWARE\LunarG\VulkanSDK, /v, com.lunarg.vulkan.vma, /t, REG_DWORD, /d, 0, /f
+[44614] reg" started, arguments: "ADD HKEY_LOCAL_MACHINE\\SOFTWARE\\LunarG\\VulkanSDK /v com.lunarg.vulkan.vma /t REG_DWORD /d 0 /f
+[44629] Done
+[44629] Was not installed
