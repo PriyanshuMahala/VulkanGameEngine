@@ -3,6 +3,8 @@
 namespace lve {
 
 	void HelloTriangleApplication::initWindow() {
+		glfwInit();
+
 		glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API); //Hints to not create a openGL context
 		glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE); 
 
@@ -12,7 +14,7 @@ namespace lve {
 	}
 
 	void HelloTriangleApplication::mainLoop() {
-		while (!(glfwWindowShouldClose)) {
+		while (!(glfwWindowShouldClose(window))) {
 			glfwPollEvents();
 		}
 	}
