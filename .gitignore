@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+!Libraries\glew-2.1.0-win32\glew-2.1.0\lib
+!Libraries\glew-2.1.0-win32\glew-2.1.0\bin
